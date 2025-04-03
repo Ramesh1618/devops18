@@ -23,7 +23,6 @@ status = "Enabled"
 }
 }
 terraform {
-depends_on = [aws_s3_bucket.one]
 backend "s3" {
 region = "us-east-1"
 bucket = "ramesh18.devops.project.bucket"
