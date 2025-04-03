@@ -10,7 +10,6 @@ resource "aws_launch_template" "web_server_as" {
     
 }
    
-p
 
   resource "aws_elb" "web_server_lb"{
      name = "web-server-lb"
